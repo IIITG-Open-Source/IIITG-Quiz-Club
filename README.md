@@ -1,1 +1,1 @@
-# IIITG-Quiz-Club
+# Quiz-Club
