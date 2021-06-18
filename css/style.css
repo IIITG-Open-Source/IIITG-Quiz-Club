@@ -1,0 +1,51 @@
+body {
+  overflow-x: hidden;
+}
+
+.navbar .nav-link {
+
+  /* color:dodgerblue; */
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid;
+}
+
+
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url('../img/lights.jpeg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+
+
+/* 
+#page-header {
+  height: 200px;
+  background: url('../img/icon.jpeg');
+  background-position: 0 -360px;
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+ */
