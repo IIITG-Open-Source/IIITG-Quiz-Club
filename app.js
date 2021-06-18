@@ -18,7 +18,9 @@ app.get('/events', (req, res) => {
 app.get('/contact', (req, res) => {
     res.render('sections/contact');
 });
-
+app.get('/gallery', (req, res) => {
+    res.render('sections/gallery');
+});
 
 app.listen(3000, () => {
     console.log('serving on port 3000');
